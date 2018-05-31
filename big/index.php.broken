@@ -1,0 +1,21 @@
+<?php include 'includes/header.php'?>
+    <!-- START LEFT COL -->
+    <section>
+     <h2 class="pageID">Welcome</h2>
+     <!-- END header.php include here! -->
+
+     <!-- Add multiple.php contact form address questions we ask most web clients -->
+
+    </section>
+    <!-- END LEFT COL -->
+
+    <!-- START RIGHT COL -->
+    <aside>
+     <h3>Additonal Resources</h3>
+     <p>Provide at least 3 (linked) resources that help you and/or your web team with steps found in very basic website design and development cycle. For example, client surveys, wireframing tools, etc.</p>
+     <p>Here's a website to help get you started, https://business.tutsplus.com/articles/...</p>
+    </aside>
+    <!-- END RIGHT COL -->
+    
+    <!-- START Footer -->
+<?php include 'includes/footer.php'?>
