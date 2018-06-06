@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/table.css" />
 </head>
 <body>
 <div class="wrapper">
@@ -24,7 +25,7 @@
   </nav>
 </header>       
 <!-- START LEFT COL -->
-<!--<section>-->
+<section>
  <h2 class="pageID"><?=$PageID?></h2>
  <!-- END Header Include Here --> 
 

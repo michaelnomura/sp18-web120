@@ -1,7 +1,7 @@
 /* My WEB120 Portal Website Styles */
 
 html {
-    background-color:#ccc;
+    background-color:#BADFB1;
 }
 
 
@@ -14,12 +14,13 @@ div.wrapper {
 h1>a {
     text-decoration: none;
     color:#000;
+    text-align: center;
 }
 
 .logo {
-    color:red;
+    color:#31BADFB1;
     margin-left:1%;
-    text-shadow:1px 1px #ccc;
+    text-shadow:1px 1px #BADFB1;
     font-size:1.25em;
 }
 
@@ -80,7 +81,7 @@ footer {
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        background-color: #ccc;
+        background-color: #D46557;
         color:#000;
    	 }
 }
@@ -110,7 +111,7 @@ footer {
     
     /* Change background color of navigation on selected page */
         ul.topnav li a.selected {
-        background-color: #ccc;
+        background-color: #E5A350;
         color:#000;
         }
   }

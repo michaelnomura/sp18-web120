@@ -24,12 +24,8 @@ date_default_timezone_set('America/Los Angeles');
 //this constant allows a page to know it's own url/name
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
-$nav1['index.php'] = "Welcome";
-$nav1['big/index.php'] = "Big";
-$nav1['aia.php'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart";
-$nav1['fp/index.php'] = "Final Project";
-$nav1['contactme.php'] = "Contact Michael";
+$nav1['index.php'] = "Home";
+
 
 switch(THIS_PAGE)
 {
@@ -50,12 +46,7 @@ switch(THIS_PAGE)
         $logo = "fa-file-text-o";
         $PageID = "Final Project: Flowchart and Layout";
     break;
-    
-    case "contactme.php":
-        $title = "Michael Nomura: Contact Form";
-        $logo = "fa-pencil-square-o";
-        $PageID = "Contact Michael";
-    break;
+
         
     default:
         $title = THIS_PAGE;
