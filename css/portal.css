@@ -4,8 +4,6 @@ html {
     background-color:#ccc;
 }
 
-
-
 div.wrapper {
     background-color:#fff;
     overflow:auto;
@@ -43,7 +41,6 @@ div.embed-container iframe {
 
 footer {
 	clear:both;
-    padding: 2%;
 }
 
 /* START RESPONSIVE STYLES */
@@ -57,21 +54,20 @@ footer {
 	}
 
     section {
-		width:65%;
+		width:60%;
 		float:left;
-        padding-left: 2%;
+        padding: 10px;
 	}
 	
      aside {	
-		width:30%;
+		width:34%;
 		float:right;
 	}
 			
 	
     img.desktop {
-      		float:left;
+      		 float:left;
        		width:50%;
-        padding-right: 2%;
    	 }
     
     img.tablet, img.phone {
@@ -80,8 +76,8 @@ footer {
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        background-color: #ccc;
-        color:#000;
+        		background-color: #ccc;
+        	color:#000;
    	 }
 }
 
@@ -90,9 +86,8 @@ footer {
 @media all and (min-width:737px) and (max-width:1399px) {
 	
 	section {
-		width:56%;
+		width:60%;
 		float:left;
-        padding: 2%;
 	}
 	
 	aside {	
@@ -100,19 +95,19 @@ footer {
 		float:right;
 	}
 	
-    img.tablet {
-    width:100%;
-    }
+            img.tablet {
+       		width:100%;
+           }
     
-    img.phone, img.desktop {
-    display:none;
-    } 
+           img.phone, img.desktop {
+        		display:none;
+           } 
     
     /* Change background color of navigation on selected page */
-        ul.topnav li a.selected {
-        background-color: #ccc;
-        color:#000;
-        }
+           ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+          }
   }
 
 
@@ -120,11 +115,11 @@ footer {
 @media all and (max-width:736px) {
     
     img.phone {
-       	width:100%;
+       		width:100%;
     }
     
     img.tablet, img.desktop {
-        display:none;
+        		display:none;
     }  
 
 }
