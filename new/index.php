@@ -1,1 +1,0 @@
-<h1>This is the new file</h1>
