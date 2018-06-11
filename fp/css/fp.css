@@ -24,11 +24,16 @@ h1 {
     text-align: center;
 }
 
+h1, h2 {
+    font-family: 'Righteous', cursive;
+}
+
 h1>a {
     text-decoration: none;
     color:#000;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Righteous', cursive;
     
 }
 
@@ -86,7 +91,7 @@ footer {
 	
     img.desktop {
       		float:left;
-       		width:50%;
+       		width:100%;
         padding-right: 2%;
    	 }
     
