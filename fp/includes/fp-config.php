@@ -33,23 +33,24 @@ $nav1['contact.php'] = "Contact";
 switch(THIS_PAGE)
 {
     case "index.php":
-        $title = "Michael Nomura: WEB120 Portal Website";
-        $logo = "fa-home";
+        $title = "Home";
         $PageID = "Welcome";
     break;
     
-    case "aia.php":
-        $title = "Michael Nomura: Final Project AIA";
-        $logo = "fa-users";
-        $PageID = "Final Project:Audience, Issues and Approach";
+    case "menu.php":
+        $title = "Menu";
+        $PageID = "Menu";
     break;
         
-    case "ux.php":
-        $title = "Michael Nomura: Final Project Flowchart and Layout";
-        $logo = "fa-file-text-o";
-        $PageID = "Final Project: Flowchart and Layout";
+    case "map.php":
+        $title = "Map";
+        $PageID = "Map";
     break;
 
+    case "contact.php":
+        $title = "Contact";
+        $PageID = "Contact";
+    break;
         
     default:
         $title = THIS_PAGE;

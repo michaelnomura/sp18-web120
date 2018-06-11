@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'?>
 <h2>Menu</h2>
+<hr>
 <h3>Teriyaki</h3>
 <p>With Rice and Cucumber Salad</p>
 <ol>
@@ -24,6 +25,11 @@
     <li>Chicken, General Tso's Chicken, and Gyoza (4 piece) - $14.99</li>
     <li>Shrimp Tempura - $11.99</li>
     <li>Chicken and Tempura - $12.99</li>
+</ol>
+<h3>Yakisoba</h3>
+<ol start="19">
+    <li>Chicken or Tofu - $8.99</li>
+    <li>Beef, Pork, or Shrimp - $11.99</li>
 </ol>
 </section>
 <!-- END LEFT COL -->
